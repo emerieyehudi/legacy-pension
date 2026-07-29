@@ -1,0 +1,338 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color:navajowhite;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.header{
+    width:100%;
+    background-color:#2C3E50;
+    padding:10px 20px;
+    border-bottom:6px solid grey;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:relative;
+    z-index:10;
+}
+
+/* Logo + Title Wrapper */
+.brand{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+#logo{
+    width:60px;
+    height:60px;
+    border:2px solid gray;
+    border-radius:50%;
+}
+
+#heads{
+    color:blueviolet;
+    font-size:28px;
+}
+
+.tagline{
+    display:block;
+    font-size:14px;
+    color:gray;
+    font-style:italic;
+}
+
+.navbar ul{
+    list-style:none;
+    display:flex;
+    gap:20px;
+}
+
+.navbar ul li a{
+    text-decoration:none;
+    color:yellowgreen;
+    font-weight:bold;
+    font-size: 20px;
+    padding:8px 12px;
+    border-radius:6px;
+    transition:0.3s;
+}
+
+.navbar ul li a:hover{
+    background-color:whitesmoke;
+    color:navy;
+}
+
+.parent{
+    /* background:url("../images/smile.jpg") no-repeat center center;
+    background-size:cover; */
+    width:100%;
+    min-height:90vh;
+    padding:40px 20px;
+    text-align:center;
+}
+
+#demo{
+    color:greenyellow;
+    font-size:90px;
+    margin-top:10px;
+    text-shadow:2px 7px 8px rebeccapurple;
+}
+
+#para{
+    width:50%;
+    margin:20px auto;
+    padding:30px;
+    line-height: 1.6;
+    background:rgba(0,0,0,0.5);
+    color:black;
+    border-radius:20px;
+    font-size:25px;
+    text-align:center;
+}
+
+
+.button-container{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    margin-top:20px;
+    flex-wrap:wrap;
+}
+
+.btn{
+    padding:12px 25px;
+    min-width:200px;
+    text-align:center;
+    background-color:navy;
+    color:goldenrod;
+    border:1px solid black;
+    border-radius:12px;
+    text-decoration:none;
+    font-size: 16px;
+    transition: 0.3s ease;
+}
+
+#btnd{
+    padding:12px 25px;
+    min-width:200px;
+    text-align:center;
+    background-color:whitesmoke;
+    color:navy;
+    border:1px solid black;
+    border-radius:12px;
+    text-decoration:none;
+    font-size: 16px;
+    transition: 0.3s ease;
+}
+
+.btn:hover,
+#btnd:hover{
+    background-color:yellowgreen;
+    color:navy;
+    border:2px solid black;
+    font-weight: bold;
+}
+
+.card-container{
+    display:flex;
+    flex-wrap:wrap;
+    gap:25px;
+    justify-content:center;
+    padding:40px;
+    background-color:#f5f7fa;
+}
+
+.card{
+    width:280px;
+    /* height: 600px; */
+    background:blanchedalmond;
+    border-radius:20px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.1);
+    transition:0.3s ease;
+    line-height: 1.5;
+    /* margin-bottom: 10px; */
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card img{
+  height: 250px; 
+  width: 100%; 
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+.card h2{
+    font-size: 27px;
+    color: #003366;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card p{
+    color: black; 
+    padding: 20px; 
+    text-align:left;
+    font-size: 18px;
+}
+
+.learn-more{
+    display: block;
+    width: fit-content;
+    margin: 0px auto;
+    /* justify-content: center; */
+    margin-top: 15px;
+    padding: 8px 16px;
+    background-color: navy;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.learn-more:hover{
+    background-color: navy;
+    color: goldenrod;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 50px;
+    height: 50px;
+    background-color: #2C3E50;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    text-decoration: none;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: 0.3s ease;
+    z-index: 1000;
+}
+
+.back-to-top:hover {
+    /* background-color: #34495E; */
+    background-color: navajowhite;
+    color: navy;
+    transform: translateY(-5px);
+}
+
+.footer{
+    width:100%;
+    height: auto;
+    padding: 15px;
+    background-color:#111827;
+    text-align:center;
+    color:white;
+    /* float: left; */
+}
+
+/* Hide checkbox */
+#menu-toggle{
+    display:none;
+}
+
+/* Hamburger icon */
+.hamburger{
+    display:none;
+    font-size:28px;
+    color:white;
+    cursor:pointer;
+}
+
+
+
+
+
+/* ================= RESPONSIVE ================= */
+
+@media screen and (max-width:800px){
+
+    .navbar{
+        position:absolute;
+        top:100%;
+        left:0px;
+        width:100%;
+        background:#2C3E50;
+        display:none;
+    }
+
+    .navbar ul{
+        flex-direction:column;
+        text-align:center;
+        padding:20px 0px;
+    }
+
+    .navbar ul li{
+        margin:10px 0px;
+    }
+
+    /* Show hamburger */
+    .hamburger{
+        display:block;
+    }
+
+    /* Show menu when checked */
+    #menu-toggle:checked ~ .navbar{
+        display:block;
+    }
+
+    /* Adjust hero text */
+    #demo{
+        font-size:40px;
+        margin-top:60px;
+    }
+
+    #para{
+        width:90%;
+        font-size:18px;
+    }
+
+   /* Improve brand stacking on mobile */
+    .brand{
+        flex-direction:column;
+        align-items:center;
+        text-align:center;
+        gap:5px;
+    }
+
+    #logo{
+        width:50px;
+        height:50px;
+    }
+
+    #heads{
+        font-size:20px;
+    }
+
+    .tagline{
+        font-size:12px;
+    }
+
+    .header{
+    flex-direction:column;
+    align-items:center;
+    gap:10px;
+    padding:15px 10px;
+    }
+
+    .hamburger{
+    position:absolute;
+    right:20px;
+    top:20px;
+    }
+}

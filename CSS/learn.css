@@ -1,0 +1,62 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #EAF2FB;
+
+}
+
+#crsa{
+    padding:20px 20px;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid darkgrey;
+}
+
+.exp{
+    display:flex;
+    justify-content:center;
+    gap: 10px;
+    margin-top:40px;
+    flex-wrap:wrap;
+}
+
+.top{
+    font-size: 50px;
+    text-align:center;
+}
+
+.prg{
+    text-align: justify;
+    padding: 15px;
+    margin: 3px;
+    line-height: 1.6;
+    font-size: 22px;
+}
+
+#withdraw{
+    padding:20px 20px;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid darkgrey;
+}
+
+#multifund{
+    padding:20px 20px;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid darkgrey;   
+}
+
+#employer{
+    padding:20px 20px;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid darkgrey;
+}
+

@@ -1,0 +1,161 @@
+.fah{
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #EAF2FB;
+    color: black;
+}
+
+#hds{
+    text-shadow: 2px 7px 8px rebeccapurple;
+    color: greenyellow;
+    margin-top: -29px;
+    font-size: 60px;
+
+}
+
+.fac{
+    max-width:80%;
+    margin: 50px auto;
+    padding: 10px 20px;
+    font-family: "Benton-Sans-Regular", Arial, sans-serif;
+}
+
+
+.fitem{
+    margin-bottom: 20px;
+    background: #f5f7fa;
+    padding: 15px 20px;
+    border-radius: 8px;
+    line-height: 1.5;
+}
+
+.sump{
+    margin-top: 10px; 
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #003366;
+}
+
+details ul{
+    margin-left: 40px;
+    padding: 8px 6px;
+}
+
+
+
+.fitem summary{
+    font-weight: bold;
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.faqt{
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #EAF2FB ;
+    color: black;
+}
+
+.ctu{
+    display: inline-block;
+    padding: 10px 20px;
+    background: navajowhite;
+    color: navy;
+    font-size: 19px;
+    text-decoration: none;
+    border-radius: 6px;
+    margin-top: 15px;
+    border: 2px solid black;
+}
+
+.ctu:hover{
+    background-color: navy;
+    color: goldenrod;
+}
+
+
+
+
+
+/* ================= TABLET VIEW ================= */
+@media screen and (max-width: 992px){
+
+    #hds{
+        font-size: 45px;
+        margin-top: 0;
+    }
+
+    .fac{
+        max-width: 90%;
+    }
+
+    .fitem summary{
+        font-size: 18px;
+    }
+
+    .sump{
+        font-size: 16px;
+    }
+}
+
+
+/* ================= MOBILE VIEW ================= */
+@media screen and (max-width: 768px){
+
+    #hds{
+        font-size: 35px;
+    }
+
+    .fac{
+        max-width: 95%;
+        padding: 10px;
+    }
+
+    .fitem{
+        padding: 15px;
+    }
+
+    .fitem summary{
+        font-size: 16px;
+    }
+
+    details ul{
+        margin-left: 20px;
+    }
+
+    .ctu{
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+}
+
+
+/* ================= SMALL PHONES ================= */
+/* @media screen and (max-width: 480px){
+
+    #hds{
+        font-size: 28px;
+    }
+
+    .fah,
+    .faqt{
+        padding: 40px 15px;
+    }
+
+    .fitem{
+        padding: 12px;
+    }
+
+    .sump{
+        font-size: 14px;
+    }
+
+    .ctu{
+        width: 100%;
+        display: block;
+        margin: 15px auto 0;
+        text-align: center;
+    }
+} */

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account | Legacy Pensions</title>
+    <link rel="icon" href="images/favicon-32x32.png">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/home.css">
+    <link rel="stylesheet" href="css/create.css">
+    <link rel="stylesheet" href="CSS/font-awesome.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="brand">
+            <img src="images/ioj.jpg" alt="logo" id="logo">
+            <h2 id="heads">Legacy Pensions 
+            <span class="tagline">...securing tomorrow's comfort today</span></h2>
+        </div>
+
+                <!-- Hamburger Toggle -->
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="hamburger">&#9776;</label>
+
+        <nav class="navbar">
+            <ul>
+                <li>
+                    <a href="home.html">Home</a>
+                </li>
+                <li>
+                    <a href="#">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="register">
+        
+        <div class="signup-container">
+
+            <!-- <div class="logo"><img src="images/ioj.jpg" alt="logo" style="height: 100px; width: 200px; border-radius: 50%;"></div> -->
+
+            <h2>Create Your Account</h2>
+            
+
+            <form method="post" action="">
+
+                <div class="input-group">
+                    <input type="text" name="fname" placeholder="First Name" required>
+                </div>
+
+                <div class="input-group">
+                    <input type="text" name="lname" placeholder="Last Name" required>
+                </div>
+
+                <div class="input-group">
+                <input type="email" name="email" placeholder="Email Address" required>
+                </div>
+
+                <div class="input-group">
+                    <select name="Gender" class="form-select">
+                    <option selected>Select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="Female">Female</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <input type="password" name="password" placeholder="Password">
+                </div>
+
+                <div class="input-group">
+                    <input type="password" name="password" placeholder="Confirm Password" required>
+                </div>
+
+                <div class="check form-check form-switch">
+                    <input type="checkbox" class="form-check-input" required>
+                    <label for="terms">
+                        I agree to <a href="#">Terms</a> & <a href="#">Privacy Policy</a>
+                    </label>
+                </div>
+
+                <button type="submit" class="btn"><i class="fa fa-user-plus mx-1"></i>Create Account</button>
+
+            </form>
+
+            <p class="login">
+                Already have an account? <a href="login1.html">Log in</a>
+            </p>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 Legacy Pensions. All Rights Reserved. | Privacy Policy | Terms of Service</p>
+    </footer>
+
+    
+</body>
+</html>

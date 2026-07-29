@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Menu | Savoria Luxury Restaurant </title>
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/menu.css">
+    <link rel="stylesheet" href="CSS/font-awesome.min.css">
+</head>
+<body>
+    <section class="intro">
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent" id="navbar">
+                    <div class="container-fluid">
+                        
+                        <h2 class="navbar-brand m-0">Savoria</h2>
+
+                        <!-- Hamburger Button -->
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <!-- Collapsible Menu -->
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarMenu">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a href="leeg.html" class="nav-link">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="menu.html" class="nav-link">Our Menu</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Contact Us</a>
+                                </li>
+                            </ul>
+                        <button class="btn btn-transparent btn-outline-light my-3" data-bs-toggle="modal"       data-bs-target="#reservationModal">Reservation</button>
+                        </div>
+                    </div>
+        </nav>
+
+        <!-- Modal -->
+        <div class="modal fade" id="reservationModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content bg-black text-light border-0 p-4">
+
+                    <!-- Header -->
+                    <div class="mb-4">
+                        <small class="text-uppercase text-secondary">Savoria Luxury Restaurant</small>
+                        <h2 class="text-warning">Book a Table</h2>
+                    </div>
+
+                    <form>
+                        <div class="row g-3">
+
+                            <div class="col-md-4 col-lg-4 col-xl-4">
+                                <input type="text" class="form-control input" name="fname" placeholder="Your Full Name" required>
+                            </div>
+
+                            <div class="col-md-4 col-lg-4 col-xl-4">
+                                <input type="email" class="form-control input" name="email" placeholder="Your Email" required>
+                            </div>
+
+                            <div class="col-md-4 col-lg-4 col-xl-4">
+                                <input type="text" class="form-control input" name="pnum" placeholder="Your Phone" required>
+                            </div>
+
+                            <div class="col-md-4 col-lg-4 col-xl-4">
+                                <input type="date" class="form-control input" name="date" required>
+                            </div>
+
+                            <div class="col-md-4 col-lg-4 col-xl-4">
+                                <input type="time" class="form-control input" name="time" required>
+                            </div>
+
+                            <div class="col-md-4 col-lg-4 col-xl-4">
+                                <input type="number" class="form-control input" name="nump" placeholder="# of people" required>
+                            </div>
+
+                            <div class="col-12">
+                                <textarea class="form-control input" rows="4" name="message" placeholder="Message"></textarea>
+                            </div>
+
+                            <div class="text-center mt-4">
+                                <button type="button" class="btn btn-warning px-4 py-2 rounded-pill">
+                                Book table</button>
+                                
+                            </div>
+
+                        </div>
+                    </form>
+
+                    <p style="opacity: 0.3; margin-top: 9px;">Please note that availability may vary and it is recommended to make a reservation in advance to ensure a table is available for your desired date and time.</p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <h2 id="name">Savoria Luxury Restaurant</h2>
+                <p class="tagline">Bold flavors • Afro-fusion • Street energy</p>            
+                
+                <div class="search-box">
+                <input type="text" name="search" placeholder="Search our Menu...">
+                </div>
+
+                <div class="section-title">
+                    <span></span>
+                    <h3>FOOD</h3>
+                    <span></span>
+                </div>         
+        </div>
+
+        <div class="menu">
+            <details class="fitem">
+                <summary>STARTERS</summary>
+                <div class="item">
+                    <span>GRANDMA CHICKEN</span>
+                    <small>Old layer dip in a special lastdrop sauce</small>
+                    <span class="price">₦20000</span>
+                </div>
+
+                <div class="item">
+                    <span>SAVORIA CHICKEN KEBAB</span>
+                    <span class="price">₦12000</span>
+                </div>
+
+                <div class="item">
+                    <span>SPICY ESCARGOT</span>
+                    <span class="price">₦8000</span>
+                </div>
+
+                <div class="item">
+                    <span>CHICKEN WINGS</span>
+                    <span class="price">₦10000</span>
+                </div>
+
+                <div class="item">
+                    <span>PRAWN SUYA</span>
+                    <span class="price">₦12000</span>
+                </div>
+
+                <div class="item">
+                    <span>LASTDROP SWEET & SPICY PORK </span>
+                    <span class="price">₦13000</span>
+                </div>
+
+                <div class="item">
+                    <span>LEMON AND HERB BONELESS CHICKEN</span>
+                    <small>Comes with a side of either French fries, Potato fries or Yam fries</small>
+                    <span class="price">₦12000</span>
+                </div>
+
+                <div class="item">
+                    <span>PEPPER SOUP</span>
+                    <small>Spicy Chicken, Goat or Fish pepper soup</small>
+                    <span class="price">₦8000</span>
+                </div>
+            </details>
+
+            <details class="fitem">
+                <summary>BURGERS</summary>
+                <div class="item">
+                    <span>SAVORIA WOW COMBO</span>
+                    <small> Burger,French fries & coke</small>
+                    <span class="price">₦12500</span>
+                </div>
+
+                <div class="item">
+                    <span>SAVORIA MAXI COMBO</span>
+                    <small> Burger,French fries & coke</small>
+                    <span class="price">₦14500</span>
+                </div>
+
+                <div class="item">
+                    <span>SAVORIA MAXI</span>
+                    <small>Double Deck Beef</small>
+                    <span class="price">₦11000</span>
+                </div>
+
+                <div class="item">
+                    <span>SAVORIA WOW</span>
+                    <span class="price">₦9000</span>
+                </div>
+
+            </details>
+
+            <details class="fitem">
+                <summary>PLATTER</summary>
+                <div class="item">
+                    <span>SURF & TURF</span>
+                    <small>Sea food & assorted meat platter</small>
+                    <span class="price">₦55000</span>
+                </div>
+
+                <div class="item">
+                    <span>SAVORIA NOAH'S ARK (LARGE)</span>
+                    <small>Family size meat & seafood tray</small>
+                    <span class="price">₦145000</span>
+                </div>
+
+                <div class="item">
+                    <span>NOAH'S ARK (MEDIUM)</span>
+                    <span class="price">₦85000</span>
+                </div>
+
+                <div class="item">
+                    <span>LOCAL PLATTER</span>
+                    <small> A selection of chilli yam fries,gizzards,spicy snails,fried plantain and beef suya</small>
+                    <span class="price">₦45000</span>
+                </div>
+
+                <div class="item">
+                    <span>SUYA PLATTER</span>
+                    <small>Chicken suya, beef suya,prawn suya served with plantain or yam fries</small>
+                    <span class="price">₦40000</span>
+                </div>
+
+                <div class="item">
+                    <span>BEEF ESPADATA</span>
+                    <small>Fresh cut selection of beef served with fries</small>
+                    <span class="price">₦25000</span>
+                </div>
+
+            </details>
+
+            <details class="fitem">
+                <summary>PASTA</summary>
+                <div class="item">
+                    <span>SPAGHETTI ARIOTO</span>
+                    <span class="price">₦8500</span>
+                </div>
+
+                <div class="item">
+                    <span>PENNE ARRABBIATA</span>
+                    <span class="price">₦10000</span>
+                </div>
+
+                <div class="item">
+                    <span>IS A GOAL PASTA</span>
+                    <small>Penny pasta,fresh cooking cream, beef bacon and parmesan cheese</small>
+                    <span class="price">₦8500</span>
+                </div>
+
+                <div class="item">
+                    <span>SAVORIA NOODLES</span>
+                    <span class="price">₦5500</span>
+                </div>
+
+                <div class="item">
+                    <span>CREAMY PASTA</span>
+                    <span class="price">₦9500</span>
+                </div>
+
+                <div class="item">
+                    <span>042 SHANGAI</span>
+                    <small>Spaghetti stir-fried with soy sauce, flash-seared veggies and your choice of protein</small>
+                    <span class="price">₦10000</span>
+                </div>
+
+                <div class="item">
+                    <span>RASTA PASTA</span>
+                    <small>Shredded jerk chicken, pasta and bell peppers in a slightly creamy pepper sauce</small>
+                    <span class="price">₦10000</span>
+                </div>
+
+                <div class="item">
+                    <span>TRIPLE THREAT</span>
+                    <small>Spaghetti stacked with juicy beef, tender chicken, and grilled sausage, finished with fresh parsley and toasted sesame seeds.</small>
+                    <span class="price">₦12000</span>
+                </div>
+            </details>
+
+            <details class="fitem">
+                <summary>RICE DISHES</summary>
+                <div class="item">
+                    <span>Aunty Priscilla’s Jollof</span>
+                    <small>Smoky firewood party Jollof served with chicken, fried plantain and a scoop of creamy coleslaw.</small>
+                    <span class="price">₦9500</span>
+                </div>
+
+                <div class="item">
+                    <span>Coco Chic</span>
+                    <small>Coconut-infused rice stir-fried with crisp veggies.</small>
+                    <span class="price">₦12000</span>
+                </div>
+
+                <div class="item">
+                    <span>Fisherman Rice</span>
+                    <small>Smoky, spicy rice simmered in rich seafood stock and loaded with prawns, calamari, crabs and tender fish chunks.</small>
+                    <span class="price">₦25000</span>
+                </div>
+
+                <div class="item">
+                    <span>Gangster Jollof</span>
+                    <small>A fusion of Nigerian jollof and Chinese fried rice with scrambled eggs, sautéed bell peppers, sesame oil, sesame seeds and scallions</small>
+                    <span class="price">₦12000</span>
+                </div>
+
+                <div class="item">
+                    <span>FRIED RICE</span>
+                    <span class="price">₦5000</span>
+                </div>
+
+                <div class="item">
+                    <span>BASMATI RICE</span>
+                    <small>Tender grilled goat chunks in tasty basmati fried rice finished with a fried egg on top</small>
+                    <span class="price">₦7500</span>
+                </div>
+            </details>
+
+            <details class="fitem">
+                <summary>LOCAL DISHES</summary>
+                <div class="item">
+                    <span>Fisherman Soup</span>
+                    <small>Fresh fish, prawns, periwinkle, and spicy broth simmered with local herbs</small>
+                    <span class="price">₦28000</span>
+                </div>
+
+                <div class="item">
+                    <span>Vegetable Soup</span>
+                    <small>Rich blend of vegetables, assorted meats, dried fish, seasoned in rich palm oil</small>
+                    <span class="price">₦10000</span>
+                </div>
+
+                <div class="item">
+                    <span>Native Soup</span>
+                    <small>A coastal classic of assorted meat, periwinkle, uziza and thickener in richly spiced palm oil broth</small>
+                    <span class="price">₦12000</span>
+                </div>
+
+                <div class="item">
+                    <span>Fresh Okra</span>
+                    <small>Light and vibrant mix of okra, pepper blend and smoked goat meat.</small>
+                    <span class="price">₦8000</span>
+                </div>
+
+                <div class="item">
+                    <span>Native Rice</span>
+                    <small>Palm oil rice loaded with smoked fish, scent leaf, and local spices — village flavored, city style.</small>
+                    <span class="price">₦10000</span>
+                </div>
+
+                <div class="item">
+                    <span>Nkwobi</span>
+                    <small>Tender cow foot cooked slow and rich in a spicy, palm oil and ugba sauce.</small>
+                    <span class="price">₦10000</span>
+                </div>
+            </details>
+
+            <details class="fitem">
+                <summary>SHARWARMA</summary>
+                <div class="item">
+                    <span>SHARWAMA MIXED GRILL</span>
+                    <small>(Chicken, Beef, Sausage, and cheese)</small>
+                    <span class="price">₦7500</span>
+                </div>
+
+                <div class="item">
+                    <span>HOT AND SPICY CHICKEN SHARWARMA</span>
+                    <span class="price">₦7000</span>
+                </div>
+
+                <div class="item">
+                    <span>SHARWAMA COMBO</span>
+                    <small>Any sharwama, French fries & coke</small>
+                    <span class="price">₦16500</span>
+                </div>
+            </details>
+
+            <details class="fitem">
+                <summary>SAVORIA SPECIALS</summary>
+                <div class="item">
+                    <span>SEAFOOD PAELLA</span>
+                    <span class="price">₦14500</span>
+                </div>
+
+                <div class="item">
+                    <span>JAMBALAYA RICE</span>
+                    <span class="price">₦11500</span>
+                </div>
+
+                <div class="item">
+                    <span>MIXED MEAT ESPADATA FOOD TRAY</span>
+                    <small>A wild selection of beef,chicken,seafood served with a side of rice and fries</small>
+                    <span class="price">₦70000</span>
+                </div>
+
+                <div class="item">
+                    <span>SHRIMP BOAT PASTA</span>
+                    <small>Linguini pasta sauce,cherry tomato, basil and permesan</small>
+                    <span class="price">₦8500</span>
+                </div>
+
+                <div class="item">
+                    <span>SAVORIA CATFISH & CRUISE</span>
+                    <small>Whole special Catfish pepper soup</small>
+                    <span class="price">₦17000</span>
+                </div>
+
+                <div class="item">
+                    <span>GRANPA'S GOAT HEAD</span>
+                    <small>Goathead dipped in a special local sauce served with Fries</small>
+                    <span class="price">₦17000</span>
+                </div>
+            </details>
+
+            <details class="fitem">
+                <summary>EXTRA SIDES</summary>
+                <div class="item">
+                    <span>FRENCH FRIES</span>
+                    <span class="price">₦2500</span>
+                </div>
+
+                <div class="item">
+                    <span>YAM CHIPS</span>
+                    <span class="price">₦3000</span>
+                </div>
+
+                <div class="item">
+                    <span>PLANTAIN CHIPS</span>
+                    <span class="price">₦3000</span>
+                </div>
+
+                <div class="item">
+                    <span>LASTDROP SAUSAGE</span>
+                    <span class="price">₦1500</span>
+                </div>
+
+                <div class="item">
+                    <span>EXTRA PRAWN (small)</span>
+                    <span class="price">₦2000</span>
+                </div>
+
+                <div class="item">
+                    <span>SAMOSA</span>
+                    <small>6 pieces served with a Dip</small>
+                    <span class="price">₦7000</span>
+                </div>
+
+                <div class="item">
+                    <span>SWEET POTATO</span>
+                    <span class="price">₦1500</span>
+                </div>
+
+                <div class="item">
+                    <span>ULTIMATE CEASARS SALAD</span>
+                    <small>Iceberg,permasan & garlic croutons tossed in our ceasar sauce</small>
+                    <span class="price">₦8000</span>
+                </div>
+            </details>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="container-fluid text-white bg-dark py-3">
+            <div class="container mt-5">
+                <div class="row mt-2">
+                    <div class="col-sm-12 col-xs-12 col-md-4 col-lg-4 col-xl-4">
+                        <h2 class="text-warning">Our Location</h2>
+                        <p>263A Ogui Road, Opposite Fire Service, GRA 400251 Enugu, Nigeria <br>
+                        <i class="fa fa-map-marker mx-2"></i>Get Direction</p>
+                    </div>
+                    <div class="col-sm-12 col-xs-12 col-md-4 col-lg-4 col-xl-4">
+                        <ul class="nav justify-content-center">
+                            <li class="nav-item">
+                                <a href="https://whatsapp.com"><i class="fa fa-whatsapp mx-2 text-white"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://x.com"><i class="fa fa-twitter mx-2 text-white"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://instagram.com"><i class="fa fa-instagram text-white mx-2"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://facebook.com"><i class="fa fa-facebook mx-2 text-white"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://www.gmail.com"><i class="fa fa-envelope mx-2 text-white"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://telegram.com"><i class="fa fa-telegram mx-2 text-white"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-12 col-xs-12 col-md-4 col-lg-4 col-xl-4">
+                        <h3 class="text-warning">Opening Hours</h3>
+                            <p>
+                                <b>Sunday - Wednesday</b> <br>
+                                <i class="fa fa-clock-o mx-2 fa-1x"></i> 9AM - 12AM 
+                            </p>
+
+                            <p>
+                                Saturdays - Sundays <br>
+                                <i class="fa fa-clock-o mx-2 fa-1x"></i> 6PM - 5AM  
+                            </p>
+
+
+                        <button class="btn btn-transparent btn-outline-light my-3" data-bs-toggle="modal"       data-bs-target="#reservationModal">Reservation</button>
+                    </div>
+                </div>
+            </div> 
+            <hr>
+
+            <div class="container mt-5">
+                <div class="row mt-2">
+                    <div class="col-md-6 col-lg-6 col-xl-6">
+                        <p>Copyright © 2026 Savoria Luxury Restaurant | Designed by Emerie</p>
+                    </div>
+
+                    <div class="col-md-6 col-lg-6 col-xl-6">
+                        <p>Powered by Savoria Luxury Restaurant</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="JS/bootstrap.bundle.min.js"></script>
+</body>
+</html>

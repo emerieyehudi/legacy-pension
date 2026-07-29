@@ -1,0 +1,252 @@
+body{
+  background-color: gray;
+    margin: 0px;
+    padding: 2px;
+}
+/* Hero Section */
+.about-hero{
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero-text{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* About Content */
+.about-content{
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about-intro{
+    max-width: 700px;
+    margin: 0 auto 40px auto;
+}
+
+/* Mission & Vision Cards */
+.mission-vision{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card{
+    background: #f5f7fa;
+    padding: 25px;
+    width: 280px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover{
+    transform: translateY(-8px);
+}
+
+/* Why Choose Us */
+.why-choose-us{
+    background-color: #f0f2f5;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.features{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.feature-box{
+    width: 260px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0066cc;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: #004999;
+}
+
+#but1{
+    padding: 10px 20px;
+    background-color: whitesmoke;
+    color: navy;
+    width: 15%;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+
+#but2{
+    background-color: whitesmoke;
+    color: navy;
+    padding: 9px;
+    border-radius: 12px;
+    width: 15%;
+    margin-right: 20px;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+
+.parent{
+    background-image: url("../images/smile.jpg");
+    background-size: 100% 100%;
+    width: 100%;
+    height: 900px;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 2px;
+}
+
+/* HEADER */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #003366;
+    color: white;
+}
+
+.header #logo{
+    height: 50px;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navbar a:hover{
+    text-decoration: underline;
+}
+
+/* HERO / BACKGROUND */
+.registration-hero{
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), 
+                url(../images/);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+/* FORM CONTAINER */
+.registration-form-container{
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+}
+/* FORM STYLING */
+.registration-form{
+    /*background-color: white;*/
+    padding: 35px 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    background-image: url(../images/kfv.jpg);
+    color: #003366;
+    margin-top: 20px;
+}
+
+.registration-form input{
+    width: 100%;
+    padding: 12px 10px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* BUTTON CONTAINER */
+.button-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+}
+/* BUTTONS */
+.btn{
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #003366;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover{
+    background-color: #0055aa;
+}
+
+/* SECONDARY BUTTON */
+.btn-secondary{
+    background-color: whitesmoke;
+    color: #003366;
+    border: 1px solid #003366;
+}
+.btn-secondary:hover{
+    background-color: #003366;
+    color: white;
+}
+
+
+
+
+
+.input {
+    background: transparent;
+    border: 1px solid #8c6b3f;
+    color: #fff;
+}
+
+/* .input::placeholder {
+    color: #aaa; 
+} */
+
+.input:focus {
+    background: transparent;
+    border-color: #c9a66b;
+    box-shadow: none;
+    color: #fff;
+}
+
+.modal-content {
+    border-radius: 10px;
+}
+
+/* RESPONSIVE */
+@media(max-width: 500px){
+    .header{
+        flex-direction: column;
+        gap: 10px;
+    }
+}
